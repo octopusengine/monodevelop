@@ -17,8 +17,8 @@ DEP[0]=md-addins
 DEP_NAME[0]=MDADDINS
 DEP_PATH[0]=${top_srcdir}/../md-addins
 DEP_MODULE[0]=git@github.com:xamarin/md-addins.git
-DEP_NEEDED_VERSION[0]=cc3d7ba44775f2bbfc6f1c175e0d280f10e555c5
-DEP_BRANCH_AND_REMOTE[0]="cycle8 origin/cycle8"
+DEP_NEEDED_VERSION[0]=6dc0a1be813d094af7424e12958a395ddd412581
+DEP_BRANCH_AND_REMOTE[0]="cycle8-add-missing-ios-privacy-keys origin/cycle8-add-missing-ios-privacy-keys"
 
 # heap-shot
 DEP[1]=heap-shot
