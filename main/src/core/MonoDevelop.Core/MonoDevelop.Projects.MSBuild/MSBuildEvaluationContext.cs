@@ -45,6 +45,7 @@ namespace MonoDevelop.Projects.MSBuild
 	{
 		Dictionary<string,string> properties = new Dictionary<string, string> ();
 		Dictionary<string, string> envVars = new Dictionary<string, string> ();
+		public Dictionary<string, string> EvaluationCache { get; } = new Dictionary<string, string> ();
 
 		bool allResolved;
 		MSBuildProject project;
